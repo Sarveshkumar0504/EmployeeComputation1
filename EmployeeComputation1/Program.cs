@@ -13,6 +13,7 @@ namespace EmployeeComputation1
             Console.WriteLine("Welcome to Employee Wage Computation 1");
             EmployeeWage employee = new EmployeeWage();
             employee.EmployeeAttendance();
+            employee.DailyWage();
             Console.ReadLine();
         }
     }
